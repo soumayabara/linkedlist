@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nodeTest.js"></script>
+</head>
+<body>
+  <div class="contenair">
+      <div class="for">
+           <h1>linkedList</h1>
+           <div class="in">
+            <label id="lname" > Nom  :</label id="lname">
+               <input type="text" placeholder="Nom" id="Nom"><br>
+           </div>
+           <div>
+          <button type="button" class="button" onclick="addFirst()">Insérer le premier</button>
+          <button type="button" class="button" onclick="addlast()">Insérer le dernier </button>
+          <input type="number" placeholder="indice" class="in" id= "indice" > 
+           <button type="button" class="button" onclick="insertAt()">Insérer un noeud dans la liste pour un indice </button>
+          <button type="button" class="button" onclick="affichAt()">Récuperer un noeud sur un indice défini</button>
+          <p id="demo1"  class="in" ></p>
+          <button type="button" class="button" onclick="affichAll()">Imprimer la liste liée</button>
+         <button type="button" class="button" onclick="supAt()">Supprimer un noeud sur un indice défini</button>
+          <button type="button" class="button" onclick="supAll()">Effacer(clear) une liste liée</button>
+          <p id="demo"  class="in"></p>
+         </div>
+      </div>
+  </div>  
+ 
+</body>
+</html>
